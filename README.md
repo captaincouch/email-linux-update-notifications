@@ -5,6 +5,8 @@ This script was written on and for a system running Ubuntu 20.04, but will likel
 
 The only thing that needs to be edited is the `recipient@domain.tld` to the email address of choice.
 
+This was written primarily to be a quick tool used for a small project, but kept here for general reference purposes.
+
 The script, presented without comments:
 
 ```
