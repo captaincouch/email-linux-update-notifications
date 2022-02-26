@@ -23,7 +23,7 @@ cat /root/apt.log | tee -a /root/cron_emailupdates.tmp
 echo "." >> /root/cron_emailupdates.tmp
 
 # Send the email to specified addresses.
-/usr/sbin/sendmail -v captcouch@captcouch.xyz,caitlyn.k.murton@gmail.com < /root/cron_emailupdates.tmp
+/usr/sbin/sendmail -v recipient@domain.tld < /root/cron_emailupdates.tmp
 
 # Remove the temporary file now that the email has been sent.
 rm /root/cron_emailupdates.tmp
