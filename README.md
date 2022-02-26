@@ -1,7 +1,7 @@
 # email-linux-update-notifications
-A basic script for Linux package update email notifications using cron.
+A basic script for Linux package update email notifications using cron, as root.
 
-This script was written on and for a system running Ubuntu 20.04, but will likely work with other distros, provided that the short list of dependencies is satisfied.
+This script was written on and for a system running Ubuntu 20.04 as root, but will likely work with other distros, provided that the short list of dependencies is satisfied.
 
 The only thing that needs to be edited (aside from the `email.template` file) is the `recipient@domain.tld` to the email address of choice.
 
